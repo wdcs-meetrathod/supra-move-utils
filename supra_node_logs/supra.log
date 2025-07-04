@@ -1,0 +1,24 @@
+[2025-07-04T05:26:03.722379Z+00:00]  INFO supra_logger: Starting logger runtime at localhost:38281. Use `nc localhost 38281` to change log level.
+[2025-07-04T05:26:03.722416Z+00:00]  INFO supra_logger: Starting console-logger runtime at localhost:40839. Use `tokio-console http://localhost:40839` to view.
+[2025-07-04T05:26:03.722419Z+00:00]  INFO supra::common::verbose: Log level INFO enabled.
+[2025-07-04T05:43:26.932967Z+00:00]  INFO supra_logger: Starting logger runtime at localhost:41601. Use `nc localhost 41601` to change log level.
+[2025-07-04T05:43:26.933074Z+00:00]  INFO supra_logger: Starting console-logger runtime at localhost:40413. Use `tokio-console http://localhost:40413` to view.
+[2025-07-04T05:43:26.933084Z+00:00]  INFO supra::common::verbose: Log level INFO enabled.
+[2025-07-04T05:43:36.990510Z+00:00]  INFO supra_logger: Starting logger runtime at localhost:41407. Use `nc localhost 41407` to change log level.
+[2025-07-04T05:43:36.990628Z+00:00]  INFO supra_logger: Starting console-logger runtime at localhost:38643. Use `tokio-console http://localhost:38643` to view.
+[2025-07-04T05:43:36.990637Z+00:00]  INFO supra::common::verbose: Log level INFO enabled.
+[2025-07-04T05:44:15.946410Z+00:00]  INFO supra_logger: Starting logger runtime at localhost:40761. Use `nc localhost 40761` to change log level.
+[2025-07-04T05:44:15.946468Z+00:00]  INFO supra_logger: Starting console-logger runtime at localhost:33045. Use `tokio-console http://localhost:33045` to view.
+[2025-07-04T05:44:15.946472Z+00:00]  INFO supra::common::verbose: Log level INFO enabled.
+[2025-07-04T05:45:50.444892Z+00:00]  INFO supra_logger: Starting logger runtime at localhost:38337. Use `nc localhost 38337` to change log level.
+[2025-07-04T05:45:50.445053Z+00:00]  INFO supra_logger: Starting console-logger runtime at localhost:33835. Use `tokio-console http://localhost:33835` to view.
+[2025-07-04T05:45:50.445067Z+00:00]  INFO supra::common::verbose: Log level INFO enabled.
+[2025-07-04T05:46:16.700346Z+00:00]  INFO supra_logger: Starting logger runtime at localhost:36393. Use `nc localhost 36393` to change log level.
+[2025-07-04T05:46:16.700498Z+00:00]  INFO supra_logger: Starting console-logger runtime at localhost:34651. Use `tokio-console http://localhost:34651` to view.
+[2025-07-04T05:46:16.700510Z+00:00]  INFO supra::common::verbose: Log level INFO enabled.
+[2025-07-04T05:47:03.329566Z+00:00]  INFO supra_logger: Starting logger runtime at localhost:38607. Use `nc localhost 38607` to change log level.
+[2025-07-04T05:47:03.329657Z+00:00]  INFO supra_logger: Starting console-logger runtime at localhost:34583. Use `tokio-console http://localhost:34583` to view.
+[2025-07-04T05:47:03.329664Z+00:00]  INFO supra::common::verbose: Log level INFO enabled.
+[2025-07-04T05:47:35.158562Z+00:00]  INFO supra_logger: Starting logger runtime at localhost:38183. Use `nc localhost 38183` to change log level.
+[2025-07-04T05:47:35.158602Z+00:00]  INFO supra_logger: Starting console-logger runtime at localhost:34489. Use `tokio-console http://localhost:34489` to view.
+[2025-07-04T05:47:35.158605Z+00:00]  INFO supra::common::verbose: Log level INFO enabled.

@@ -1,0 +1,28 @@
+Local: (2025-07-04 10:56:05.724182160 +05:30)	 Utc: (2025-07-04 05:26:05.724217803 UTC)
+
+CMD:
+Init
+Output:
+{
+  "Result": "Success"
+}
+
+
+Local: (2025-07-04 11:13:26.999955795 +05:30)	 Utc: (2025-07-04 05:43:26.999974733 UTC)
+
+CMD:
+Test
+Output:
+General: {
+  "Error": "Unexpected error: Failed to run tests: Unable to resolve packages for package 'SupraMoveUtils': While resolving dependency 'SupraFramework' in package 'SupraMoveUtils': Failed to fetch to latest Git state for package 'SupraFramework', to skip set --skip-fetch-latest-git-deps | Exit status: exit status: 128"
+}
+Local: (2025-07-04 11:17:36.915481599 +05:30)	 Utc: (2025-07-04 05:47:36.915500653 UTC)
+
+CMD:
+Test
+Output:
+{
+  "Result": "Success"
+}
+
+

@@ -1,0 +1,16 @@
+[package]
+name = "SupraMoveUtils"
+version = "1.0.0"
+authors = ["Meet Rathod"]
+
+[addresses]
+dev = "0xb596d8b405d299a5a1672246c9443713073f47aca108cb6bf5bab57e9bf11231"
+
+[dev-addresses]
+
+[dependencies.SupraFramework]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/supra-framework"
+
+[dev-dependencies]
