@@ -39,7 +39,7 @@ SupraMoveUtils = { git = "https://github.com/wdcs-meetrathod/supra-move-utils.gi
 ## 🚀 Quick Start
 ```move
 module your_project::example {
-use dev::utils;
+use supra_move::utils;
 use std::string::utf8;
 
     public fun quick_example() {
