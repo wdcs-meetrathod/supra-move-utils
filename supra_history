@@ -26,3 +26,81 @@ Output:
 }
 
 
+Local: (2025-07-04 11:46:44.974832420 +05:30)	 Utc: (2025-07-04 06:16:44.974904220 UTC)
+
+CMD:
+Test
+Output:
+{
+  "Result": "Success"
+}
+
+
+Local: (2025-07-04 11:49:16.857980457 +05:30)	 Utc: (2025-07-04 06:19:16.858061320 UTC)
+
+CMD:
+Test
+Output:
+General: {
+  "Error": "Move unit tests failed"
+}
+Local: (2025-07-04 11:50:58.971421547 +05:30)	 Utc: (2025-07-04 06:20:58.971499782 UTC)
+
+CMD:
+Test
+Output:
+General: {
+  "Error": "Move unit tests failed"
+}
+Local: (2025-07-04 11:52:42.581582109 +05:30)	 Utc: (2025-07-04 06:22:42.581699675 UTC)
+
+CMD:
+Test
+Output:
+{
+  "Result": "Success"
+}
+
+
+Local: (2025-07-04 11:53:00.714770182 +05:30)	 Utc: (2025-07-04 06:23:00.714845967 UTC)
+
+CMD:
+Test
+Output:
+{
+  "Result": "Success"
+}
+
+
+Local: (2025-07-04 11:53:29.070159339 +05:30)	 Utc: (2025-07-04 06:23:29.070237548 UTC)
+
+CMD:
+Test
+Output:
+{
+  "Result": "Success"
+}
+
+
+Local: (2025-07-04 11:53:41.779014565 +05:30)	 Utc: (2025-07-04 06:23:41.779089598 UTC)
+
+CMD:
+Test
+Output:
+{
+  "Result": "Success"
+}
+
+
+Local: (2025-07-04 11:53:52.025456781 +05:30)	 Utc: (2025-07-04 06:23:52.025543784 UTC)
+
+CMD:
+Compile
+Output:
+{
+  "Result": [
+    "b596d8b405d299a5a1672246c9443713073f47aca108cb6bf5bab57e9bf11231::utils"
+  ]
+}
+
+

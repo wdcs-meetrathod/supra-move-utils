@@ -1,7 +1,10 @@
-module dev::utils {
+module supra_move::utils {
     use std::string::{String, utf8, bytes};
     use std::vector;
     use aptos_std::debug::print;
+
+    const ASSERT_FAIL_MESSAGE: u64 = 1;
+    const ASSERT_EQ: u64 = 2; 
 
     // ============ PRINTING FUNCTIONS ============
 
@@ -380,7 +383,7 @@ module dev::utils {
     public fun assert_with_message(condition: bool, message: vector<u8>) {
         if (!condition) {
             print_error(message);
-            assert!(condition, 1);
+            assert!(condition, ASSERT_FAIL_MESSAGE);
         };
     }
 
@@ -390,7 +393,7 @@ module dev::utils {
             print_error(message);
             print_debug(b"Expected", right);
             print_debug(b"Actual", left);
-            assert!(left == right, 2);
+            assert!(left == right, ASSERT_EQ);
         };
     }
 

@@ -4,7 +4,7 @@ version = "1.0.0"
 authors = ["Meet Rathod"]
 
 [addresses]
-dev = "0xb596d8b405d299a5a1672246c9443713073f47aca108cb6bf5bab57e9bf11231"
+supra_move = "0xb596d8b405d299a5a1672246c9443713073f47aca108cb6bf5bab57e9bf11231"
 
 [dev-addresses]
 

@@ -1,8 +1,10 @@
 #[test_only]
-module dev::utils_tests {
+module supra_move::utils_tests {
     use std::string::{utf8};
     use std::vector;
-    use dev::utils;
+    use supra_move::utils::{ASSERT_FAIL_MESSAGE, ASSERT_EQ};
+    use supra_move::utils;
+
 
     // ============ PRINTING FUNCTIONS TESTS ============
 
@@ -253,14 +255,14 @@ module dev::utils_tests {
     }
 
     #[test]
-    #[expected_failure(abort_code = 1)]
+    #[expected_failure(abort_code = ASSERT_FAIL_MESSAGE)]
     public fun test_assert_with_message_failure() {
         // This test should fail
         utils::assert_with_message(false, b"This should fail");
     }
 
     #[test]
-    #[expected_failure(abort_code = 2)]
+    #[expected_failure(abort_code = ASSERT_EQ)]
     public fun test_assert_eq_failure() {
         // This test should fail
         utils::assert_eq(10u64, 20u64, b"These numbers are not equal");
