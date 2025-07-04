@@ -34,7 +34,7 @@ A comprehensive utility library for Supra Move development, providing essential 
 Add to your Move.toml:
 ```toml
 [dependencies]
-SupraMoveUtils = { git = "https://github.com/wdcs-meetrathod/supra-move-utils.git", rev = "main" }
+SupraMoveUtils = { git = "https://github.com/wdcs-meetrathod/supra-move-utils.git", rev = "mainnet" }
 ```
 ## 🚀 Quick Start
 ```move
