@@ -227,22 +227,4 @@ utils::print_info(b"Starting data analysis");
 - Integration test scenarios
 - Expected failure tests
 
-# 🤝 Contributing
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/new-utility`
-3. Add your function to `sources/utils.move`
-4. Add corresponding tests to `tests/utils_tests.move`
-5. Ensure all tests pass: `supra move tool test`
-6. Submit a pull request
-
-# 📋 Requirements
-- Supra CLI
-- Move language support
-- Supra Framework dependencies
-
-# 🐛 Issues & Support
-If you encounter any issues or have suggestions:
-- Open an issue on GitHub
-- Provide detailed error messages
-- Include code examples demonstrating the problem
 
