@@ -4,7 +4,7 @@ module supra_move::utils {
     use aptos_std::debug::print;
 
     const ASSERT_FAIL_MESSAGE: u64 = 1;
-    const ASSERT_EQ: u64 = 2; 
+    const ASSERT_EQ: u64 = 2;
 
     // ============ PRINTING FUNCTIONS ============
 
@@ -26,9 +26,11 @@ module supra_move::utils {
 
     /// Print key with value in formatted way
     public fun print_formatted<T: drop>(key: vector<u8>, value: T) {
-        print(&utf8(b"["));
-        print(&utf8(key));
-        print(&utf8(b"]: "));
+        let byte = b"[";
+        vector::append(&mut byte,key);
+
+        vector::append(&mut byte,b"]: ");
+        print(&utf8(byte));
         print(&value);
     }
 
@@ -46,9 +48,10 @@ module supra_move::utils {
 
     /// Print debug information
     public fun print_debug<T: drop>(msg: vector<u8>, value: T) {
-        print(&utf8(b"DEBUG: "));
-        print(&utf8(msg));
-        print(&utf8(b" = "));
+        let byte = b"DEBUG: ";
+        vector::append(&mut byte, msg);
+        vector::append(&mut byte, b" = ");
+        print(&utf8(byte));
         print(&value);
     }
 
